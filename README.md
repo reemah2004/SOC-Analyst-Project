@@ -37,10 +37,11 @@ Screenshots are included inside the full report.
 - ✅ Nmap terminal results  
 - ✅ Nessus vulnerability summary  
 - ✅ Splunk dashboard (Top CVEs & MITRE mappings)  
-- ✅ Executive-style report summary  
+- ✅ Remediations
 
 ## 📄 Full Report  
-👉 [Download the Report (PDF)](./Vulnerability_Assessment_Report.pdf)  
+👉 [Download the Report (PDF)](./Vulnerability%20Assessment%20Report.pdf)
+  
 
 ---
 
