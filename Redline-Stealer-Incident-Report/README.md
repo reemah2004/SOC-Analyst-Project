@@ -41,5 +41,3 @@ Key Takeaways
 
 
 #CyberSecurity #SOCAnalyst #BlueTeam #Wireshark #IncidentResponse #ThreatHunting
-
-#CyberSecurity #SOCAnalyst #BlueTeam #Wireshark #IncidentResponse #MITREATTACK #ThreatHunting  
