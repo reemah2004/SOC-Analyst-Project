@@ -31,7 +31,7 @@ TLS handshake to Cloudflare server
 Wireshark packet captures of exfiltration patterns  
 
 Full Report  
-👉 [Download the Incident Report (PDF)](./Redline_Stealer_Incident_Report.pdf)  
+👉 [Download the Incident Report (PDF)](../Redline_Stealer_Incident_Report.pdf)  
 
 Key Takeaways  
 - Hands-on experience in malware traffic analysis & incident response  
