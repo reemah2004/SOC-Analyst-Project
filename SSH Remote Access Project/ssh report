@@ -1,0 +1,44 @@
+Secure SSH Remote Access Project (Kali Linux & Windows 11)
+
+This project simulates a "real-world remote administration scenario" demonstrating secure SSH access, firewall hardening, intrusion prevention, and tunneling techniques to overcome ISP restrictions.
+ 
+Project Overview  
+The goal of this project was to replicate real-world challenges in securing remote SSH access:  
+- Configure and secure an OpenSSH server on Kali Linux  
+- Change the default SSH port to reduce automated attack exposure  
+- Implement firewall rules to restrict access  
+- Deploy Fail2Ban to block brute-force attempts  
+- Handle ISP restrictions with tunneling (Ngrok)  
+- Simulate login failures and monitor log-based detection  
+
+Tools & Technologies  
+- Kali Linux– OpenSSH server, UFW firewall, Fail2Ban  
+- Windows 11 Pro – SSH client (remote access testing)  
+- Ngrok – TCP tunneling service for bypassing ISP restrictions  
+
+Key Project Steps  
+- OpenSSH Configuration → Installed and enabled SSH server, changed default port `22` → `5711`  
+- Firewall Hardening → Configured UFW to allow only port `5711`  
+- Fail2Ban Setup → Monitored authentication logs and automatically banned repeated failed logins  
+- ISP Restriction Workaround → Used Ngrok TCP tunneling after discovering ISP blocks inbound connections  
+- Attack Simulation → Conducted failed login attempts from Windows and observed Fail2Ban detection & banning in logs  
+
+ Screenshots  
+Screenshots are included inside the full report:  
+- SSH server setup on Kali Linux  
+- UFW firewall rules  
+- Fail2Ban jail status  
+- Ngrok tunnel configuration  
+- Windows terminal SSH login  
+- Authentication logs showing failed attempts
+
+Full Report  
+👉 [Download the Full Project Report (PDF)](.Secure-SSH-Remote-Access-Report.pdf)   
+
+---
+
+## Key Takeaways  
+- Hands-on experience in Linux system hardening
+- Practical skills in securing remote access setup
+- Exposure to real-world troubleshooting (ISP blocking & tunneling solutions)  
+- Strengthened knowledge of SSH, firewalls, and log-based intrusion detection
